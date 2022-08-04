@@ -37,10 +37,10 @@
 
 
 // -------------
-let amount = 0;
-let = userMoney = prompt('Введи сумму');
-userMoney = amount;
-console.log(userMoney)
+
+// let = userMoney = prompt('Введи сумму');
+// userMoney = amount;
+// console.log(userMoney)
 // console.log(userMoney);
 
 const SPEDING_THRESHOLD = 200;
@@ -51,7 +51,7 @@ const PHONE_PRICE = 99.99;
 const ACCESSORY_PRICE = 9.99;
 
 let bank_balance = 303.91;
-
+let amount = 0;
 
 function calculatorTax(amount) {
    return amount * TAX_RATE;
